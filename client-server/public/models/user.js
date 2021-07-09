@@ -64,7 +64,7 @@ class User{
 
     static getUserStorege(){
         
-        return HttpRequest.get("/users");
+        return Fetch.get("/users");
     }
 
     toJSON(){
